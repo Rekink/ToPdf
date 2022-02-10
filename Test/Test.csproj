@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspose.Words" Version="19.8.0" />
+    <PackageReference Include="FreeSpire.Doc" Version="9.9.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Word">
+      <HintPath>F:\Code\ARPS\Word2Pdf\Word2Pdf\Bin\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
